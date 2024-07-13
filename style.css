@@ -1,0 +1,257 @@
+* {
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.modal-contact-div .modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.modal-contact-text-div input,
+.modal-contact-email-div input {
+  border: none;
+  border-radius: 0;
+  color: #6f718f99;
+  border-bottom: 2px solid #6f718f99;
+}
+
+.modal-contact-text-div input:focus,
+.modal-contact-email-div input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.modal-checkbox {
+  border: 2px solid #ff3366;
+  border-radius: 3px;
+  opacity: 1;
+}
+
+.modal-body form button {
+  width: 100%;
+}
+
+.contact-div {
+  padding: 5rem;
+}
+
+.contact-div-info {
+  width: 45%;
+  margin-right: 3rem;
+}
+
+.contact-div-info h4 {
+  font-size: 30px;
+  color: #ff3147;
+}
+
+.contact-div-info h1 {
+  font-size: 60px;
+  color: #000000;
+}
+
+.contact-div-info p {
+  letter-spacing: 0px;
+  width: 89%;
+  margin: 3rem 0;
+}
+
+.contact-btn {
+  background: #ff3147 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 1.4px;
+  width: 160px;
+  height: 50px;
+}
+
+.contact-div-img img {
+  opacity: 1;
+  top: 100px;
+  left: 1058px;
+  width: 350px;
+  height: 500px;
+  background-size: contain;
+}
+
+.what-we-do-div {
+  background-color: #fafafa;
+  padding: 10rem 0 10rem 10rem;
+  position: relative;
+}
+
+.what-we-do-div h4 {
+  font-size: 24px;
+  color: #ff3147;
+}
+
+.what-we-do-div h1 {
+  font-size: 45px;
+  color: #000000;
+}
+
+.what-we-do-div p {
+  margin-left: 10rem;
+  font-size: 16px;
+  width: 40%;
+}
+
+.carousel-indicators {
+  background: #000;
+  width: 35%;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  width: 35%;
+  height: 30rem;
+  margin: 0 auto;
+}
+
+.carousel-inner .carousel-item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-control-prev {
+  margin-left: 23%;
+}
+
+.carousel-control-next {
+  margin-right: 23%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  padding: 1.5rem;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+}
+
+.back {
+  background-color: #ff3147;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+  z-index: 100;
+}
+
+.back img {
+  width: 40px;
+  height: 40px;
+}
+
+.back p {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.back button {
+  color: #ff3147;
+}
+
+.why-choose-us {
+  background-color: #FFFFFF;
+  margin-top: 2rem;
+}
+
+.title {
+  color: #FF3147;
+  font-size: 24px;
+}
+
+.div-features {
+  width: 75%;
+  margin: 2rem auto;
+}
+
+.feature {
+  margin-right: 2rem;
+}
+
+.feature img {
+  margin-bottom: 1rem;
+}
+
+.div-project {
+  width: 60%;
+  margin: 1rem auto;
+}
+
+.div-image {
+  width: 100%;
+  height: 32rem;
+  padding: 1rem;
+}
+
+.div-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.project {
+  background-color: #F6F6F6;
+  padding: 1rem;
+  width: 80%;
+  cursor: pointer;
+}
+
+.rating-wrapper {
+  background-color: #FAFAFA;
+  padding: 3rem;
+}
+
+.div-rating {
+  gap: 4rem;
+  margin: 2rem;
+}
+
+.rating {
+  gap: .5rem;
+  padding: 1rem;
+  transition: all .5s ease-in-out;
+}
+
+.rating:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-wrapper .span-name {
+  color: #FF3147;
+}
+
+.feedback-wrapper .span-company {
+  opacity: .7;
+  font-size: 20px;
+}
+
+.footer-wrapper {
+  background-color: #FF3147;
+  height: 310px;
+}
