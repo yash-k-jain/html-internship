@@ -44,10 +44,6 @@ $(document).ready(function () {
   });
 });
 
-$("#exampleModal .contact-btn").click(function () {
-  $("#exampleModal").modal("hide");
-})
-
 $("#ajaxForm").submit(function (e) {
   e.preventDefault();
   var action = $(this).attr("action");
@@ -65,6 +61,8 @@ $("#ajaxForm").submit(function (e) {
   })
     .done(function () {
       alert("The form was submitted successfully.");
+      $("#ajaxForm").trigger("reset");
+      $("#exampleModal").modal("hide");
     })
     .fail(function () {
       alert("An error occurred! Please try again later.");
